@@ -1,0 +1,181 @@
+{
+    "SingleValues": [
+        {
+            "name": "AutofillAddressEnabled",
+            "values": {
+                "0": "禁止使用“自动填充”功能填写地址",
+                "1": "自动填充地址信息"
+            },
+            "default_value": 0,
+            "display_name": "自动填充地址信息",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "AutofillCreditCardEnabled",
+            "values": {
+                "0": "禁止使用“自动填充”功能填写信用卡信息",
+                "1": "允许使用“自动填充”功能填写信用卡信息"
+            },
+            "default_value": 0,
+            "display_name": "允许使用“自动填充”功能填写信用卡信息",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "DefaultGeolocationSetting",
+            "values": {
+                "1": "允许网站跟踪用户的地理位置",
+                "2": "不允许任何网站跟踪用户的地理位置",
+                "3": "每次网站尝试跟踪用户的地理位置时都询问我"
+            },
+            "default_value": 2,
+            "display_name": "默认地理位置设置",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PasswordManagerEnabled",
+            "values": {
+                "0": "禁止使用密码管理器保存密码",
+                "1": "允许使用密码管理器保存密码"
+            },
+            "default_value": 0,
+            "display_name": "允许将密码保存到密码管理器",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PaymentMethodQueryEnabled",
+            "values": {
+                "0": "始终告诉网站，没有任何已保存的付款方式",
+                "1": "允许网站检查用户是否有已保存的付款方式"
+            },
+            "default_value": 0,
+            "display_name": "允许网站查询可用的付款方式",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PrivacySandboxAdMeasurementEnabled",
+            "values": {
+                "0": "为您的用户停用 Privacy Sandbox 广告衡量设置",
+                "1": "允许用户在其设备上开启或关闭 Privacy Sandbox 广告衡量设置"
+            },
+            "default_value": 0,
+            "display_name": "选择是否可以停用 Privacy Sandbox 广告衡量设置",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PrivacySandboxAdTopicsEnabled",
+            "values": {
+                "0": "为您的用户停用 Privacy Sandbox 广告主题设置",
+                "1": "允许用户在其设备上开启或关闭 Privacy Sandbox 广告主题设置"
+            },
+            "default_value": 0,
+            "display_name": "选择是否可以停用 Privacy Sandbox 广告主题设置",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PrivacySandboxPromptEnabled",
+            "values": {
+                "0": "不向用户显示 Privacy Sandbox 提示",
+                "1": "允许 Google Chrome 确定是否显示 Privacy Sandbox 提示"
+            },
+            "default_value": 0,
+            "display_name": "选择是否可向用户显示 Privacy Sandbox 提示",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PrivacySandboxSiteEnabledAdsEnabled",
+            "values": {
+                "0": "为您的用户停用 Privacy Sandbox 网站建议采用的广告设置",
+                "1": "允许用户在其设备上开启或关闭 Privacy Sandbox 网站建议采用的广告设置"
+            },
+            "default_value": 0,
+            "display_name": "选择是否可以停用 Privacy Sandbox 网站建议采用的广告设置",
+            "allow_recommend": true,
+            "enabled": true
+        }
+    ],
+    "ExtensionSettings": [
+        {
+            "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+            "name": "uBlock Origin",
+            "description": "一款高效的网络请求过滤工具，占用极低的内存和 CPU。",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "enabled": true
+        },
+        {
+            "id": "cfnpidifppmenkapgihekkeednfoenal",
+            "name": "TrafficLight",
+            "description": "Bitdefender TrafficLight adds a strong and non-intrusive layer of security to your browsing experience.",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "enabled": true
+        },
+        {
+            "id": "ghgabhipcejejjmhhchfonmamedcbeod",
+            "name": "Click&Clean",
+            "description": "当浏览器关闭时，这款应用程序删除你的浏览历史,防止他人跟踪你的网上活动。",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "enabled": true
+        },
+        {
+            "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+            "name": "Google 翻译",
+            "description": "浏览网页时可轻松查看翻译版本。由Google翻译小组提供。",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "enabled": false
+        },
+        {
+            "id": "mlpapfcfoakknnhkfpencomejbcecdfp",
+            "name": "IP Domain Country Flag",
+            "description": "Shows country flag and other IP / domain information in the location bar.",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "enabled": false
+        }
+    ]
+}

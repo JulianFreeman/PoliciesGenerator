@@ -1,0 +1,271 @@
+{
+    "SingleValues": [
+        {
+            "name": "AlternateErrorPagesEnabled",
+            "values": {
+                "0": "不会调用 Web 服务，并且将显示标准错误页",
+                "1": "使用 Web 服务针对网络错误生成 URL 和搜索建议"
+            },
+            "default_value": 0,
+            "display_name": "找不到网页时建议类似页面",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "AutofillAddressEnabled",
+            "values": {
+                "0": "不会建议或填写地址信息",
+                "1": "使用以前存储的信息自动填写 Web 表单中的地址信息"
+            },
+            "default_value": 0,
+            "display_name": "启用地址自动填充",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "AutofillCreditCardEnabled",
+            "values": {
+                "0": "不会建议、填充或推荐新的付款方式",
+                "1": "允许用户使用以前存储的信息在 Web 窗体中自动完成信用卡或借记卡等付款方式"
+            },
+            "default_value": 0,
+            "display_name": "启用付款方式自动填充",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "AutofillMembershipsEnabled",
+            "values": {
+                "0": "无法在使用 Microsoft Edge 时自动保存其成员身份信息并用于填写表单字段",
+                "1": "自动保存其成员身份信息，并在使用 Microsoft Edge 时用于填写表单字段"
+            },
+            "default_value": 0,
+            "display_name": "保存和填充成员身份",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "ConfigureDoNotTrack",
+            "values": {
+                "0": "不会发送请求",
+                "1": "始终向要求跟踪信息的网站发送 Do Not Track 请求"
+            },
+            "default_value": 1,
+            "display_name": "配置 Do Not Track",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "ControlDefaultStateOfAllowExtensionFromOtherStoresSettingEnabled",
+            "values": {
+                "0": "无效果",
+                "1": "启用来自其他商店的允许扩展"
+            },
+            "default_value": 1,
+            "display_name": "配置“允许来自其他商店的扩展”设置的默认状态",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "DefaultGeolocationSetting",
+            "values": {
+                "1": "允许网站跟踪用户的物理位置",
+                "2": "不允许任何网站跟踪用户的物理位置",
+                "3": "每当网站想要跟踪用户的物理位置时询问"
+            },
+            "default_value": 2,
+            "display_name": "默认地理位置设置",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "DiagnosticData",
+            "values": {
+                "0": "关闭",
+                "1": "必需数据",
+                "2": "可选数据"
+            },
+            "default_value": 1,
+            "display_name": "发送有关浏览器使用情况的必需和可选诊断数据",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "EdgeShoppingAssistantEnabled",
+            "values": {
+                "0": "不会自动针对零售域应用价格比较、优惠券、折扣和快速结帐等购物功能",
+                "1": "价格比较、优惠券、折扣和快速结帐等购物功能将自动应用于零售域"
+            },
+            "default_value": 0,
+            "display_name": "已启用在 Microsoft Edge 中购物的功能",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "EdgeWalletCheckoutEnabled",
+            "values": {
+                "0": "用户在 Microsoft Edge 上购物时无法使用电子钱包结帐",
+                "1": "可以选择在 Microsoft Edge 上购物时是否使用电子钱包结帐"
+            },
+            "default_value": 0,
+            "display_name": "启用电子钱包结帐功能",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PasswordManagerEnabled",
+            "values": {
+                "0": "无法保存并添加新密码",
+                "1": "可以在 Microsoft Edge 中保存并添加其密码"
+            },
+            "default_value": 0,
+            "display_name": "允许将密码保存到密码管理器",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PaymentMethodQueryEnabled",
+            "values": {
+                "0": "禁止检查可用的付款方式",
+                "1": "可以检查用户是否保存了付款方式"
+            },
+            "default_value": 0,
+            "display_name": "允许网站查询可用的付款方式",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PersonalizationReportingEnabled",
+            "values": {
+                "0": "禁止将浏览数据发送给 Microsoft",
+                "1": "允许将浏览数据发送给 Microsoft"
+            },
+            "default_value": 0,
+            "display_name": "允许将浏览数据发送给 Microsoft",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "PrimaryPasswordSetting",
+            "values": {
+                "0": "自动",
+                "1": "使用设备密码",
+                "2": "使用自定义主密码",
+                "3": "自动填充关闭"
+            },
+            "default_value": 3,
+            "display_name": "配置要求用户在使用密码自动填充时输入设备密码的设置",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "RelatedMatchesCloudServiceEnabled",
+            "values": {
+                "0": "可以在受限网站上的“查找页面”中接收相关匹配项",
+                "1": "可以在所有网站上的“查找页面”中接收相关匹配项"
+            },
+            "default_value": 0,
+            "display_name": "在“在页面查找”中配置相关匹配项",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "ResolveNavigationErrorsUseWebService",
+            "values": {
+                "0": "使用本机 API 尝试解决网络连接和导航问题",
+                "1": "使用 Web 服务执行网络连接测试"
+            },
+            "default_value": 0,
+            "display_name": "启用使用 Web 服务解决导航错误",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "ShowMicrosoftRewards",
+            "values": {
+                "0": "禁用 Microsoft Rewards 体验",
+                "1": "开启 Microsoft Rewards 体验"
+            },
+            "default_value": 0,
+            "display_name": "展示 Microsoft Rewards体验",
+            "allow_recommend": true,
+            "enabled": true
+        },
+        {
+            "name": "TabServicesEnabled",
+            "values": {
+                "0": "不会向选项卡组织服务发送任何数据",
+                "1": "用户创建选项卡组或激活某些“组相似选项卡”功能时，Microsoft Edge 会将选项卡数据发送到其选项卡组织服务"
+            },
+            "default_value": 0,
+            "display_name": "启用选项卡组织建议",
+            "allow_recommend": true,
+            "enabled": true
+        }
+    ],
+    "ExtensionSettings": [
+        {
+            "id": "odfafepnkmbhccpbejgmiehpchacaeak",
+            "name": "uBlock Origin",
+            "description": "一款高效的网络请求过滤工具，占用极低的内存和 CPU。",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+            "enabled": true
+        },
+        {
+            "id": "dacknjoogbepndbemlmljdobinliojbk",
+            "name": "Click&Clean",
+            "description": "当浏览器关闭时，这款应用程序删除你的浏览历史,防止他人跟踪你的网上活动。",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+            "enabled": true
+        },
+        {
+            "id": "mhjnajgcbhkdhnfgcfjimgdddjjondoc",
+            "name": "IP Domain Country Flag",
+            "description": "Shows country flag and other IP / domain information in the location bar.",
+            "modes": {
+                "blocked": "阻止安装",
+                "allowed": "允许安装",
+                "force_installed": "强制安装",
+                "normal_installed": "默认安装",
+                "removed": "移除"
+            },
+            "default_mode": "normal_installed",
+            "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+            "enabled": false
+        }
+    ],
+    "SearchEngines": [
+        {
+            "number": "1",
+            "name": "Google",
+            "keyword": "google.com",
+            "is_default": true,
+            "search_url": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchboxStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:prefetchSource}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}",
+            "enabled": true
+        },
+        {
+            "number": "2",
+            "name": "Bing",
+            "keyword": "bing.com",
+            "is_default": false,
+            "search_url": "{bing:baseURL}search?q={searchTerms}&{bing:cvid}{bing:msb}{google:assistedQueryStats}",
+            "enabled": false
+        }
+    ]
+}
